@@ -1,6 +1,6 @@
 {
   "name": "karma-japa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Japa framework for karma test runner",
   "main": "lib/index.js",
   "directories": {
