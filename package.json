@@ -1,0 +1,46 @@
+{
+  "name": "karma-japa",
+  "version": "1.0.0",
+  "description": "Japa framework for karma test runner",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "grunt",
+    "test": "karma start"
+  },
+  "files": ["lib"],
+  "keywords": [
+    "japa",
+    "test-runner",
+    "karma",
+    "karma-framework"
+  ],
+  "author": "virk",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-karma": "^2.0.0",
+    "japa": "^1.0.5",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "diff": "^3.4.0",
+    "karma-mocha-reporter": "^2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetutlage/karma-japa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thetutlage/karma-japa/issues"
+  },
+  "homepage": "https://github.com/thetutlage/karma-japa#readme"
+}
